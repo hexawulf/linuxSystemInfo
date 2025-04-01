@@ -45,9 +45,11 @@ public class LinuxSystemInfo {
     }
 
     private static void displayAuthorInfo() {
+    	System.out.println("  --------------------------------------");
         System.out.println("  Enhanced Linux System Info Tool v2.0");
         System.out.println("  Author: 0xWulf");
         System.out.println("  Email: 0xwulf@proton.me");
+        System.out.println("  Date: " + new java.util.Date());
         System.out.println("  --------------------------------------");
     }
 
